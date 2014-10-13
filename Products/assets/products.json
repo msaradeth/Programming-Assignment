@@ -1,0 +1,538 @@
+{"productArray":
+	[
+	{	
+		"id": "1",	
+		"name":  "VTech Switch & Go Dinos - Sliver the T-Rex Dinosaur",
+		"description":  "You can run, but you can't hide from Sliver the T-Rex! A member of the VTech Switch & Go Dinos crew, Sliver is a 2-in-1 toy that easily transforms from a speedy race car to a T-Rex and back again in just a few simple steps.",
+		"regularPrice":  "15.99",
+		"salePrice":  "11.59",
+		"productPhoto":  "images/vtech.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+	{	
+		"id": "2",	
+		"name":  "Mega Bloks First Builders Big Building Bag, 80-Piece (Classic)",
+		"description":  "Play, store and take it with you wherever you go! The 80 piece Maxi Blocks Classic Bag by Mega Bloks includes 80 big building blocks! It is the perfect toy for your little building fan who is just learning how to build with his own two hands.",
+		"regularPrice":  "24.99",
+		"salePrice":  "10.40",
+		"productPhoto":  "images/mega_bloks.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+	{	
+		"id": "3",	
+		"name":  "Kid Galaxy RC Bump and Chuck Bumper Cars",
+		"description":  "Futuristic Radio-Controlled Bumper Cars are Ready to Rumble!",
+		"regularPrice":  "54.99",
+		"salePrice":  "31.99",
+		"productPhoto":  "images/kid_galaxy2.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+
+	{	
+		"id": "4",	
+		"name":  "VTech KidiBeats Drum Set",
+		"description":  "Your child can rock out and learn with the VTech KidiBeats Drum Set. This drum set for kids comes with a pair of drumsticks that can be used to tap the four different electronic learning drums. Your child can drum freestyle or play along to nine pre-set melodies in a variety of musical styles. Or for more structured play, they can follow the lights on the drums as they learn about letters and numbers. With four ways to play and a variety of fun sounds, your child will love learning to the music with this educational toy.",
+		"regularPrice":  "19.99",
+		"salePrice":  "17.99",
+		"productPhoto":  "images/vtech_kidibeats.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "5",	
+		"name":  "Spy Gear Spy Night Scope",
+		"description":  "These ultra sophisticated night scope binoculars are equipped with a secret stealth mode spotlight that make them invaluable for night use. You can see 25 feet away, even in the dark! This scope has won award for design.",
+		"regularPrice":  "14.99",
+		"salePrice":  "14.69",
+		"productPhoto":  "images/night_scope.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "6",	
+		"name":  "WolVol Friction Powered Transport Car Carrier Truck Toy for Boys (includes 1 friction truck and 4 cars)",
+		"description":  "The WolVol Friction Transport Truck is a fun add-on to any child's car collection. Transport the 4 colorful cars to the track to get them anywhere you like. A great gift idea for boys ages 3 and up.",
+		"regularPrice":  "49.94",
+		"salePrice":  "29.94",
+		"productPhoto":  "images/wolvo_friction.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "7",	
+		"name":  "Melissa & Doug Car Carrier",
+		"description":  "Load, raise, and haul four new vehicles along an imaginary highway with the Car Carrier from Melissa & Doug. This quality, all-wood truck makes it easy to load four brightly colored cars onto a long ramp that folds into a two-level carrier, allowing your child to deliver the vehicles wherever they may need to go!",
+		"regularPrice":  "19.99",
+		"salePrice":  "15.99",
+		"productPhoto":  "images/melissa_car.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "8",	
+		"name":  "Little Tikes EasyScore Basketball Set",
+		"description":  "The Little Tikes Easy Score Basketball Set, designed for children 18 months to 5 years old, introduces kids of all abilities to the game of basketball and competitive play. The height can be adjusted to six settings between 2 and 4 feet to accommodate even the littlest hoop star.",	
+		"regularPrice":  "36.99",
+		"salePrice":  "24.99",
+		"productPhoto":  "images/little_tikes.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "9",	
+		"name":  "Baby Einstein Take Along Tunes",
+		"description":  "Promote music appreciation and auditory development by introducing your little one to baby-friendly versions of classical masterpieces by Mozart, Vivaldi, Chopin and Rossini with the Baby Einstein take along Tunes. A large, easy to press button allows your baby to toggle through 7 high quality and enjoyable classical melodies at home, or for on-the-go fun.",	
+		"regularPrice":  "9.99",
+		"salePrice":  "7.48",
+		"productPhoto":  "images/baby_einstein.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+	
+	
+	{	
+		"id": "10",	
+		"name":  "Learning Resources Gears! Gears! Gears!",
+		"description":  "Vibrant, spinning gears set imaginations in motion. GEARS! GEARS! GEARS! is a child's introduction to the world of construction and movement. Bright colors and easy-to-assemble pieces encourage children to create moving masterpieces. There are so many ways to build and open-ended components mean there are no wrong ways to build. The set contains 95 sturdy pieces that snap together, challenging your child's creativity. Children discover something new every time they play.",	
+		"regularPrice":  "29.95",
+		"salePrice":  "25.61",
+		"productPhoto":  "images/learning_resources.jpg",
+		"colors": [
+	            			{"colorName": "red"},
+                    		{"colorName": "blue"},
+                    		{"colorName": "green"},
+                    		{"colorName": "yellow"},
+                    		{"colorName": "white"},
+                    		{"colorName": "black"}
+			],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+{	
+		"id": "11",	
+		"name":  "Crayola 64 Ct Crayons (52-0064)",
+		"description":  "64 different colors spanning the spectrum Appropriate for kids 4+ Features a built in sharpener Flip-top box and tiered sleeves for easy access Makes a perfect gift With 64 unique colors and a built in sharpener this box provides hours of creative coloring fun Large color assortment appeals to older kids",
+		"regularPrice":  "9.99",
+		"salePrice":  "4.99",
+		"productPhoto":  "images/crayola.jpg",
+		"colors": [{
+	            		"colorName": "red",
+                    		"colorName": "blue",
+                    		"colorName": "green",
+                    		"colorName": "yellow",
+                    		"colorName": "white",
+                    		"colorName": "black"
+			}],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+
+	{	
+		"id": "12",	
+		"name":  "Fisher-Price Brilliant Basics Baby's First Blocks",
+		"description":  "Ten colorful blocks for baby to sort, stack and drop. Filling the bucket with blocks, dumping them out, and starting over is great for eye-hand coordination and other early skills.",
+		"regularPrice":  "9.99",
+		"salePrice":  "8.97",
+		"productPhoto":  "images/fisher.jpg",
+		"colors": [{
+	            		"colorName": "red",
+                    		"colorName": "blue",
+                    		"colorName": "green",
+                    		"colorName": "yellow",
+                    		"colorName": "white",
+                    		"colorName": "black"
+			}],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+{	
+		"id": "13",	
+		"name":  "Skylanders Trap Team: Air, Undead, & Fire Trap - Triple Trap Pack",
+		"description":  "Trap Team Traps Triple Pack",
+		"regularPrice":  "19.99",
+		"salePrice":  "13.97",
+		"productPhoto":  "images/skylanders.jpg",
+		"colors": [{
+	            		"colorName": "red",
+                    		"colorName": "blue",
+                    		"colorName": "green",
+                    		"colorName": "yellow",
+                    		"colorName": "white",
+                    		"colorName": "black"
+			}],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+{	
+		"id": "14",	
+		"name":  "Skylanders Trap Team Starter Pack - Xbox One",
+		"description":  "Trap Team Traps Triple Pack",
+		"regularPrice":  "79.99",
+		"salePrice":  "60.97",
+		"productPhoto":  "images/skylanders_trap_team.jpg",
+		"colors": [{
+	            		"colorName": "red",
+                    		"colorName": "blue",
+                    		"colorName": "green",
+                    		"colorName": "yellow",
+                    		"colorName": "white",
+                    		"colorName": "black"
+			}],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	},
+
+{	
+		"id": "15",	
+		"name":  "Skylanders Trap Team: Drobit & Trigger Snappy - Mini Character 2 Pack",
+		"description":  "Capture Evil. Unleash Good.Kaos has blown up the walls of the feared Cloudcracker Prison freeing the most notorious villains in Skylands. It's up to you and the Skylanders to find and capture them.",
+		"regularPrice":  "19.99",
+		"salePrice":  "15.97",
+		"productPhoto":  "images/trapteam.jpg",
+		"colors": [{
+	            		"colorName": "red",
+                    		"colorName": "blue",
+                    		"colorName": "green",
+                    		"colorName": "yellow",
+                    		"colorName": "white",
+                    		"colorName": "black"
+			}],
+		"stores": [
+			{
+				"name":  "Waltmart Supercenter",
+				"addr": "440 N Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92801",
+				"tel":  "(714) 491-0744"
+			},
+			{
+				"name":  "Target",
+				"addr": "101 S Euclid St",
+				"city": "Anaheim",
+				"state": "CA",
+				"zip":  "92802",
+				"tel":  "(714) 422-1121"
+			}
+			]
+	}
+
+	]	
+}
+
+

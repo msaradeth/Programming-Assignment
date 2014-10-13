@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_holo_dark"  
+    android:id="@+id/listViewLayout"
+    android:orientation="vertical" >
+
+    
+	<LinearLayout 
+	    android:id="@+id/btn_create_product_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@color/Gray4"
+	    >
+
+        <Button
+            android:id="@+id/btn_create_product_screen_create_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create All Products"
+            android:gravity="center"
+
+
+            />
+
+    </LinearLayout>    
+
+
+    
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textColor="@color/Black"      
+        android:background="@color/Green"          
+        android:paddingRight="7dp"         
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />   
+    
+    <ListView
+        android:id="@+id/create_product_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:divider="@color/Gray"
+        android:dividerHeight="1dp"
+        android:background="@color/background_holo_light"        
+        >
+        
+    </ListView>
+	
+    
+</LinearLayout>

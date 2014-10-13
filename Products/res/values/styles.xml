@@ -1,0 +1,340 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+<!--     Application theme.
+    <style name="AppTheme" parent="AppBaseTheme">
+        All customizations that are NOT specific to a particular API-level can go here.
+    </style>
+     -->
+
+  	<style name="AppBaseTheme" parent="android:Theme.Holo.Light"> 
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+     
+    <style name="Theme.MyTheme" 
+        parent="@android:style/Theme.Holo"          
+        />
+
+    
+    
+	<style name="DividerX">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">20dp</item>
+	</style>    
+    
+        
+    
+	<style name="Divider">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">10dp</item>
+	</style>    
+    
+    
+    <style name="screenTitleStype">
+         <item name="android:textColor">@color/White</item>	
+<!-- 	     <item name="android:textStyle">bold</item>    --> 
+	<!-- 	 <item name="android:background">@color/Gray5</item> -->
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>	          	    
+    </style>
+    
+    <style name="screenTitleStypeL">
+         <item name="android:textColor">@color/White</item>	
+	     <item name="android:textStyle">bold</item>    
+	<!-- 	 <item name="android:background">@color/Gray5</item> -->
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>	          	    
+    </style>
+        
+    
+    <style name="ActionBarDividerColor">
+	     <item name="android:background">@color/ActionBarDividerColor</item>	    
+    </style>  
+    
+    
+    <style name="inputStyle">
+         <item name="android:textColor">@color/Blue</item>	
+<!-- 	     <item name="android:textStyle">bold</item>    --> 
+		 <item name="android:background">@drawable/customborder</item>
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>	          	    
+    </style>
+
+    <style name="inputLabel">
+         <item name="android:textColor">@color/Gray</item>	  
+<!--          <item name="android:textStyle">bold</item> -->
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>    
+    
+        
+    
+    <style name="productNameStyle">
+         <item name="android:textColor">@color/Black</item>	
+	     <item name="android:textStyle">bold</item>    
+	     <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>     	     
+    </style>
+
+    <style name="productNameStyle2">
+         <item name="android:textColor">@color/Black</item>	
+	     <!-- <item name="android:textStyle">bold</item>    --> 
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     	     
+    </style>
+    
+    <style name="productNameStyleL">
+         <item name="android:textColor">@color/Black</item>	
+	     <!-- <item name="android:textStyle">bold</item>    --> 
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     	     
+    </style>
+        
+    
+    <style name="checkBoxStyle">
+         <item name="android:textColor">@color/Gray5</item>	  
+	     
+    </style>
+            
+        <style name="labelL">
+         <item name="android:textColor">@color/Gray5</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>
+       
+    
+    <style name="label">
+         <item name="android:textColor">@color/Gray5</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>     
+    </style>
+        
+    <style name="label2">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>
+            
+    
+    <style name="regularPriceStyle">
+         <item name="android:textColor">@color/Black</item>	  
+  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>    
+    
+    <style name="regularPriceStyleL2">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>
+        
+    
+    <style name="regularPriceStyle2">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>
+    
+    <style name="salePriceStyle">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>
+    
+    <style name="salePriceStyle2">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+    
+    <style name="salePriceStyleL2">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+        
+    
+    <style name="salePriceStyleL">
+         <item name="android:textColor">@color/Blue</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+    
+    <style name="regularPriceStyleL">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>     
+    </style>
+    
+    
+    <style name="youSave">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>    
+    
+    <style name="youSave2">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>      
+    
+    <style name="youSaveL">
+         <item name="android:textColor">@color/Red</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>     
+    
+    <style name="colorStyleLabel">
+         <item name="android:textColor">@color/Green</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>    
+    
+    
+    <style name="colorStyle">
+         <item name="android:textColor">@color/Gray4</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+<!-- 	     <item name="android:textStyle">bold</item>  --> 
+    </style>    
+    
+    
+    
+    
+    <style name="descriptionLabelStyle">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>    
+    
+    
+    <style name="descriptionStyle">
+         <item name="android:textColor">@color/Blue</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+    
+    <style name="descriptionStyleL">
+         <item name="android:textColor">@color/Blue</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item> 
+	     <item name="android:background">@color/background_holo_light</item>  
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+            
+    <style name="descriptionLabelStyleL">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <item name="android:textStyle">bold</item>  
+    </style>    
+        
+    
+    <style name="descriptionStyleDetail">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+       
+    
+    <style name="descriptionStyleDetailL">
+         <item name="android:textColor">@color/Black</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>   
+	     <!-- <item name="android:textStyle">bold</item>   -->
+    </style>    
+           
+    
+    
+    
+    
+    
+    
+    
+    
+    <style name="createProductScreenTextStyle">
+         <item name="android:textColor">@color/regular_price_text_color</item>	  
+	     <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>     
+    </style>
+    
+    
+    <!-- Button Style -->
+    <style name="buttonStyle">
+	    <!--  <item name="android:textStyle">bold</item> -->
+	     <item name="android:textColor">@color/White</item>	    
+	     <item name="android:textSize">21sp</item>
+	     <item name="android:paddingLeft">10dp</item>
+	     <item name="android:paddingRight">10dp</item>	
+	     <item name="android:layout_alignParentBottom">true</item>	
+	     
+    </style>
+    
+    <!-- Orange Button Style -->
+    <style name="buttonStyleOrange">
+	    <!--  <item name="android:textStyle">bold</item> -->
+	     <item name="android:textColor">@color/Gray5</item>	    
+	     <item name="android:textSize">18sp</item>
+	     <item name="android:paddingLeft">5dp</item>
+	     <item name="android:paddingRight">5dp</item>
+	     <item name="android:paddingTop">3dp</item>
+	     <item name="android:paddingBottom">3dp</item>	     	     
+    </style>    
+
+    <!-- Phone Style -->
+    <style name="phoneStyle">
+	    <!--  <item name="android:textStyle">bold</item> -->
+	     <item name="android:textColor">@color/Gray5</item>	    
+	     <item name="android:textSize">18sp</item>
+	     <item name="android:paddingLeft">5dp</item>
+	     <item name="android:paddingRight">5dp</item>
+	     <item name="android:paddingTop">3dp</item>
+	     <item name="android:paddingBottom">3dp</item>	     	     
+    </style>    
+    
+    
+    <style name="dentistDetailText">
+	     <item name="android:textColor">@color/Gray1</item>	    
+	     <item name="android:textSize">18sp</item>
+	     <item name="android:layout_gravity">center_horizontal</item>	 
+    </style>    
+        	
+    <style name="dentistName">
+	     <item name="android:textColor">@color/Blue12</item>	    
+	     <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+	     <item name="android:layout_gravity">center_horizontal</item>
+	     <item name="android:textStyle">bold</item>	 
+    </style>   
+    
+    <style name="memberName">           
+	     <item name="android:textColor">@color/MemberSreenButtonTextColor</item>	    
+	     <item name="android:textSize">22sp</item>
+	     <item name="android:maxLines">1</item>	 
+    </style>   
+        
+    
+    <style name="memberScreen">
+	     <item name="android:textColor">@color/MemberScreenTextColor</item>	    
+	     <item name="android:textSize">18sp</item> 
+	     <item name="android:paddingLeft">10dp</item>
+    </style>    
+        	  
+    
+    <style name="IdCardScreenText">
+	     <item name="android:textColor">@color/IdCardScreenTextColor</item>	    
+	     <item name="android:textSize">18sp</item> 
+	     <item name="android:paddingLeft">10dp</item>
+    </style> 
+    
+  
+        	         
+    <style name="buttonStyle2">
+	    <!--  <item name="android:textStyle">bold</item> -->
+	     <item name="android:textColor">@color/White</item>	    
+		<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>	     
+	     <item name="android:paddingLeft">1dp</item>
+	     <item name="android:paddingRight">1dp</item>	
+	     <item name="android:layout_alignParentBottom">true</item>	
+	     
+    </style>
+</resources>

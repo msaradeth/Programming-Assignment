@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:weightSum="4" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        >
+
+        <Button
+            android:id="@+id/btn_show_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_show_product"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_create_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_create_product"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+    </FrameLayout>
+
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_view_product_from_file"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="View Product From File"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+    </FrameLayout>
+    
+    
+        
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        >
+
+        <Button
+            android:id="@+id/btn_clear_database_tables"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Clear Database Tables"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+    </FrameLayout>
+    
+</LinearLayout>

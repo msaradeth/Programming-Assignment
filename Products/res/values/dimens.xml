@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="product_image_width">100dp</dimen>
+    <dimen name="product_image_height">100dp</dimen>
+    
+    <dimen name="product_image_widthL">120dp</dimen>
+    <dimen name="product_image_heightL">120dp</dimen>    
+    
+    
+    <dimen name="product_image_widthLandscape">100dp</dimen>
+    <dimen name="product_image_heightLandscape">100dp</dimen>    
+    
+    <dimen name="product_name_widthLandscape">280dp</dimen>  
+    
+        
+    
+</resources>
+
+
+<!--     For converting the dimensions use the following Values: 
+	0.75 - ldpi  (small)   //mdpi dimens *0.75
+	1.0  - mdpi  (normal)  //First create these dimensions
+	1.5  - hdpi  (large)   //mdpi dimens *1.5
+	2.0  - xhdpi (xLarge)  //mdpi dimens *2.0 -->
+    
+<!-- <dimen name = "button1_width_small">157.5dip</dimen>
+Medium Dimensions
+<dimen name = "button1_width_medium">210dip</dimen>
+Large Dimensions = "Medium Dimensions * 1.5" For Example: 210*1.5 = 315
+<dimen name = "button1_width_large">315dip</dimen>
+XLarge Dimensions = "Medium Dimensions * 2" For Example: 210*1.5 = 420
+<dimen name = "button1_width_xLarge">420dip</dimen>    
+     -->
