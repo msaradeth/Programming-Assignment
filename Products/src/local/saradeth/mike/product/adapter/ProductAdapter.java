@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.adapter;
 
 
@@ -49,11 +52,13 @@ public class ProductAdapter extends BaseAdapter {
 				
 		
 		if (convertView == null) {
-			if (orientation == Configuration.ORIENTATION_PORTRAIT && screenSize == Configuration.SCREENLAYOUT_SIZE_NORMAL ) {
-				convertView = layoutInflater.inflate(R.layout.create_product_row, parent, false);
+			if (callFrom.equalsIgnoreCase("ProductDetailActivity")) { 
+				//For Right Drawer always show one column					
+				convertView = layoutInflater.inflate(R.layout.create_product_row_one_col, parent, false);				
 			}else {
-				convertView = layoutInflater.inflate(R.layout.create_product_row_one_col, parent, false);
+				convertView = layoutInflater.inflate(R.layout.create_product_row, parent, false);
 			}
+						
 			
 			//Set a click listener callback 
 			if (!callFrom.equalsIgnoreCase("ProductDetailActivity")) {
@@ -134,12 +139,7 @@ public class ProductAdapter extends BaseAdapter {
 	//Returns colors available for the product
 	public String getColors(String[] colorsArray) {
 		String colors = "";
-
-   		if (colorsArray.length > 1) {
-   			colors = "colors:  ";
-   		}else {
-   			colors = "color:  ";
-   		}   		
+	
    		for(int ii=0; ii<colorsArray.length; ii++) {   	
    			if (ii==0) {
    				colors = colors + colorsArray[ii];

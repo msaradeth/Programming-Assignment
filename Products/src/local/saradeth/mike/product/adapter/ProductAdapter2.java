@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.adapter;
 
 
@@ -145,7 +148,7 @@ public class ProductAdapter2 extends BaseAdapter {
    		
     	//Draw from memory cache if exist else load product image from asset folder and cache it
    		if (holder.url.isEmpty() || product.getId()==0) {
-   			holder.imageView.setImageDrawable(null);	//clear image
+   			holder.imageView.setImageDrawable(null);	//clear image from UI, if previously exist
    			
    		}else {
    			imageCache.drawImage(activity, holder);
@@ -251,12 +254,7 @@ public class ProductAdapter2 extends BaseAdapter {
 	//Returns colors available for the product
 	public String getColors(String[] colorsArray) {
 		String colors = "";
-	
-   		if (colorsArray.length > 1) {
-   			colors = "colors:  ";
-   		}else {
-   			colors = "color:  ";
-   		}   		
+			
    		for(int ii=0; ii<colorsArray.length; ii++) {   	
    			if (ii==0) {
    				colors = colors + colorsArray[ii];

@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.core;
 
 import java.io.Serializable;

@@ -40,7 +40,7 @@
 	        android:maxLines="3"
 	        android:padding="2dp"
 	        android:textColor="@color/Blue" 
-	        android:background="@color/background_holo_light" 
+	        android:background="@drawable/input_border"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
 	    
 	    <View
@@ -83,7 +83,7 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:gravity="center"
-	            android:background="@color/background_holo_light"
+	            android:background="@drawable/input_border"
 	            android:inputType="numberDecimal"
 	           	android:padding="2dp"
 	            android:textColor="@color/Blue" />
@@ -112,7 +112,7 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:gravity="center"
-	            android:background="@color/background_holo_light"
+	            android:background="@drawable/input_border"
 	            android:inputType="numberDecimal"
           	    android:padding="2dp"
 	            android:textColor="@color/Blue" />
@@ -142,7 +142,7 @@
 	        android:paddingBottom="20dp"
 	        android:maxLines="6"
 	       	android:padding="2dp"
-	        android:background="@color/background_holo_light" 
+	        android:background="@drawable/input_border"
 	        />
 	    
  <View style="@style/Divider"/>

@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.update;
 
 
@@ -56,14 +59,14 @@ public class ProductUpdate extends Activity implements AlertDialogFragment.Alert
 			orgProduct = product;
 		}
 		
-		updateUI();
-
 	}
 
 	
 	@Override
 	protected void onStart() {
-		super.onStart();			
+		super.onStart();
+		
+		updateUI();
 	}	
 	
 
@@ -106,7 +109,7 @@ public class ProductUpdate extends Activity implements AlertDialogFragment.Alert
         	
         });   
 		
-        //Save selected product to SQLite database 
+        //Reset data back to prior change
 		btnCancel.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -236,12 +239,7 @@ public class ProductUpdate extends Activity implements AlertDialogFragment.Alert
 	//Returns colors available for the product
 	public String getColors(String[] colorsArray) {
 		String colors = "";
-
-   		if (colorsArray.length > 1) {
-   			colors = "colors:  ";
-   		}else {
-   			colors = "color:  ";
-   		}   		
+  		
    		for(int ii=0; ii<colorsArray.length; ii++) {   
    			if (colorsArray[ii] == null || colorsArray[ii].isEmpty() ) {
    				continue;

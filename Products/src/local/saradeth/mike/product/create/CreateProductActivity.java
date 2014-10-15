@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.create;
 
 
@@ -167,14 +170,7 @@ public class CreateProductActivity extends Activity implements AlertDialogFragme
 		System.gc();
 	}
 
-	
-	//Select all products  
-	public void selectAllProducts() {
-		for(int ii=0; ii<alProduct.size(); ii++) {			
-			alProduct.get(ii).setCheckBoxChecked(true);		
-		}
-	}
-	
+
 	
 	//Toast a given message
     public void alert (String msg){
@@ -212,47 +208,42 @@ public class CreateProductActivity extends Activity implements AlertDialogFragme
 		int orientation = getResources().getConfiguration().orientation;
 		int screenSize = getResources().getConfiguration().screenLayout &Configuration.SCREENLAYOUT_SIZE_MASK;
 		
-/*		if (action.equalsIgnoreCase("createProduct")) {
-			//Util.alert(this, "createProduct");
-	    	aaProduct = new ProductAdapter(this, layoutInflater, alProduct, this, "CreateProductActivity", imageCache);    	
-			lvProduct.setAdapter(aaProduct);					
-		}else {	*/					
-			if (screenSize == Configuration.SCREENLAYOUT_SIZE_NORMAL) {
-				if (orientation == Configuration.ORIENTATION_PORTRAIT) {	
-			    	aaProduct = new ProductAdapter(this, layoutInflater, alProduct, this, "CreateProductActivity", imageCache);    	  	
-					lvProduct.setAdapter(aaProduct);				
-				}else {
-			    	aaProduct2 = new ProductAdapter2(this, layoutInflater, alProduct2, this, "CreateProductActivity", action, imageCache);    			    	    	
-					lvProduct.setAdapter(aaProduct2);					
-				}
+				
+		if (screenSize == Configuration.SCREENLAYOUT_SIZE_NORMAL) {
+			if (orientation == Configuration.ORIENTATION_PORTRAIT) {	
+		    	aaProduct = new ProductAdapter(this, layoutInflater, alProduct, this, "CreateProductActivity", imageCache);    	  	
+				lvProduct.setAdapter(aaProduct);				
+			}else {
+		    	aaProduct2 = new ProductAdapter2(this, layoutInflater, alProduct2, this, "CreateProductActivity", action, imageCache);    			    	    	
+				lvProduct.setAdapter(aaProduct2);					
 			}
-			
-			if (screenSize == Configuration.SCREENLAYOUT_SIZE_LARGE) {
-				//Util.alert(this, "SCREENLAYOUT_SIZE_LARGE");
-				if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-					//Util.alert(this, "ORIENTATION_PORTRAIT");
-			    	aaProduct2 = new ProductAdapter2(this, layoutInflater, alProduct2, this, "CreateProductActivity", action, imageCache);    			    	    	
-					lvProduct.setAdapter(aaProduct2);				
-				}else {
-					//Util.alert(this, "ORIENTATION_LANDSCAPE");
-			    	aaProduct3 = new ProductAdapter3(this, layoutInflater, alProduct3, this, "CreateProductActivity", action, imageCache);    			    	    	
-					lvProduct.setAdapter(aaProduct3);					
-				}
+		}
+		
+		if (screenSize == Configuration.SCREENLAYOUT_SIZE_LARGE) {
+			//Util.alert(this, "SCREENLAYOUT_SIZE_LARGE");
+			if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+				//Util.alert(this, "ORIENTATION_PORTRAIT");
+		    	aaProduct2 = new ProductAdapter2(this, layoutInflater, alProduct2, this, "CreateProductActivity", action, imageCache);    			    	    	
+				lvProduct.setAdapter(aaProduct2);				
+			}else {
+				//Util.alert(this, "ORIENTATION_LANDSCAPE");
+		    	aaProduct3 = new ProductAdapter3(this, layoutInflater, alProduct3, this, "CreateProductActivity", action, imageCache);    			    	    	
+				lvProduct.setAdapter(aaProduct3);					
 			}
-			
-			if (screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE) {
-				//Util.alert(this, "SCREENLAYOUT_SIZE_XLARGE");
-				if (orientation == Configuration.ORIENTATION_PORTRAIT) {	
-			    	aaProduct3 = new ProductAdapter3(this, layoutInflater, alProduct3, this, "CreateProductActivity", action, imageCache);    	
-			    	updateHeader();    	
-					lvProduct.setAdapter(aaProduct3);				
-				}else {
-					//Util.alert(this, "ORIENTATION_PORTRAIT");
-			    	aaProduct4 = new ProductAdapter4(this, layoutInflater, alProduct4, this, "CreateProductActivity", action, imageCache);    			    	    	
-					lvProduct.setAdapter(aaProduct4);					
-				}
-			}				
-		/*}*/
+		}
+		
+		if (screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE) {
+			//Util.alert(this, "SCREENLAYOUT_SIZE_XLARGE");
+			if (orientation == Configuration.ORIENTATION_PORTRAIT) {	
+		    	aaProduct3 = new ProductAdapter3(this, layoutInflater, alProduct3, this, "CreateProductActivity", action, imageCache);    	  	
+				lvProduct.setAdapter(aaProduct3);				
+			}else {
+				//Util.alert(this, "ORIENTATION_PORTRAIT");
+		    	aaProduct4 = new ProductAdapter4(this, layoutInflater, alProduct4, this, "CreateProductActivity", action, imageCache);    			    	    	
+				lvProduct.setAdapter(aaProduct4);					
+			}
+		}				
+	
 		
 		updateHeader();
 		
@@ -333,7 +324,7 @@ public class CreateProductActivity extends Activity implements AlertDialogFragme
     }
 
     
-    //Remove products that are already in database form List
+    //Remove products that are already in database from List
     public List<Product> removeExistProducts(List<Product> products) {
     	List<Product> tmpProducts = new ArrayList<Product>();
     	Product product;

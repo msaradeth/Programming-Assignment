@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product;
 
 
@@ -118,7 +121,7 @@ public class ProductActivity extends Activity implements AlertDialogFragment.Ale
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
 		super.onDestroy();
-		/////bug finish();
+	
 	}
 		
 }

@@ -1,3 +1,6 @@
+//Programmer:  Mike Saradeth
+//Date: 10/14/2014
+
 package local.saradeth.mike.product.lib;
 
 
@@ -41,7 +44,7 @@ public class ImageCache {
         }
         else {
             new ImageTask().execute(holder);
-            Log.d("drawImage", "Load bitmap from file " + holder.url);
+            //Log.d("drawImage", "Load bitmap from file " + holder.url);
         }
         //Log.d("mMemoryCache.size", "mMemoryCache.size() = " + mMemoryCache.size());
     }
@@ -110,7 +113,7 @@ public class ImageCache {
 					result.imageView.setImageBitmap(result.bitMap);					
 					mMemoryCache.put(result.url, result.bitMap);
 				}else {
-					result.imageView.setImageBitmap(result.bitMap);	
+					result.imageView.setImageBitmap(result.bitMap);	//clear image from UI, if previously exist
 				}				
 			}		
 		}		        
